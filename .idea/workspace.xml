@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364b23ab-f386-41fb-96fc-cbb081dc7931" name="Default Changelist" comment="" />
+    <list default="true" id="364b23ab-f386-41fb-96fc-cbb081dc7931" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/test/ObjecctTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjecctTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TCQueue.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +62,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PrimitiveTypeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="950">
+              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ObjecctTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_131/src.zip!/java/lang/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="99" column="33" lean-forward="true" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+              <folding>
+                <element signature="e#10065#10066#0" expanded="true" />
+                <element signature="e#10148#10149#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,23 +145,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/baixin/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -173,6 +173,9 @@
       <replace>s</replace>
       <replace>ps</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -220,7 +223,9 @@
         <option value="$PROJECT_DIR$/src/StaticTest.java" />
         <option value="$PROJECT_DIR$/src/BuffTest.java" />
         <option value="$PROJECT_DIR$/src/URShift.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/PrimitiveTypeTest.java" />
+        <option value="$PROJECT_DIR$/src/ObjecctTest.java" />
       </list>
     </option>
   </component>
@@ -229,6 +234,7 @@
     <option name="width" value="1357" />
     <option name="height" value="760" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -265,6 +271,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -282,9 +289,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimitiveTypeTest">
+  <component name="RunManager" selected="Application.ObjecctTest">
     <configuration name="BuffTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BuffTest" />
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjecctTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjecctTest" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,13 +318,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TCQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TCQueue" />
-      <module name="test" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="URShift" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="URShift" />
       <module name="test" />
@@ -319,19 +326,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TCQueue" />
       <item itemvalue="Application.StaticTest" />
       <item itemvalue="Application.BuffTest" />
       <item itemvalue="Application.URShift" />
       <item itemvalue="Application.PrimitiveTypeTest" />
+      <item itemvalue="Application.ObjecctTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjecctTest" />
         <item itemvalue="Application.PrimitiveTypeTest" />
         <item itemvalue="Application.URShift" />
         <item itemvalue="Application.BuffTest" />
         <item itemvalue="Application.StaticTest" />
-        <item itemvalue="Application.TCQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -378,19 +385,19 @@
       <workItem from="1573784605667" duration="3897000" />
       <workItem from="1574042273085" duration="1098000" />
       <workItem from="1574148088997" duration="2813000" />
-      <workItem from="1575891910895" duration="12092000" />
+      <workItem from="1575891910895" duration="13509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100202000" />
+    <option name="totallyTimeSpent" value="101619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17397882" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49876544" visible="true" weight="0.17397882" />
+      <window_info id="Structure" order="1" sideWeight="0.50247526" side_tool="true" weight="0.17397882" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -398,7 +405,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6486928" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.28477904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3888889" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,8 +413,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3371522" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.46972176" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2990196" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -787,17 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_131/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="235" column="57" lean-forward="true" selection-start-line="235" selection-start-column="57" selection-end-line="235" selection-end-column="57" />
-          <folding>
-            <element signature="e#10065#10066#0" expanded="true" />
-            <element signature="e#10148#10149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_131/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6426">
@@ -838,10 +834,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrimitiveTypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        <state relative-caret-position="950">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../jdk1.8.0_131/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="99" column="33" lean-forward="true" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ObjecctTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
