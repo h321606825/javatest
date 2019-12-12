@@ -1,4 +1,4 @@
-public class ObjecctTest {
+public class ObjecctTest implements Cloneable{
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof ObjecctTest) {
@@ -7,7 +7,7 @@ public class ObjecctTest {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         ObjecctTest test1 = new ObjecctTest();
         ObjecctTest test2 = new ObjecctTest();
 
@@ -18,5 +18,9 @@ public class ObjecctTest {
         System.out.println(test1.equals(test2));
         System.out.println(test1.equals(test1));//true
         System.out.println(test1.toString());//ObjecctTest
+
+        //说明clone方法返回的是Object类的引用
+        System.out.println(test1.clone().hashCode());
+        System.out.println(test1.clone() instanceof Object);
     }
 }
