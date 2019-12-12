@@ -22,5 +22,6 @@ public class ObjecctTest implements Cloneable{
         //说明clone方法返回的是Object类的引用
         System.out.println(test1.clone().hashCode());
         System.out.println(test1.clone() instanceof Object);
+        //instanceof 会尝试去转化类，转化成功，返回转化后的对象。clone返回的是ObjectTest的引用对象
     }
 }
