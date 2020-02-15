@@ -1,3 +1,7 @@
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class Test {
     public static void main(String[] args) {
         // byte
@@ -51,5 +55,10 @@ public class Test {
         // 以数值形式而不是字符形式将Character.MAX_VALUE输出到控制台
         System.out.println("最大值：Character.MAX_VALUE="
                 + (int) Character.MAX_VALUE);
+
+        HashMap<String,String> hashMap = new LinkedHashMap<String,String>();
+        Map<String,String> map = new HashMap<>();
+        map.put("hello","word");
+        System.out.println(map.get("hello"));
     }
 }
