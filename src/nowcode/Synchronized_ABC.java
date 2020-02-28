@@ -1,5 +1,8 @@
 package nowcode;
-
+/**
+ *
+ * 三个线程依次打印ABC
+ */
 public class Synchronized_ABC {
     public static class ThreadPrinter implements Runnable {
         private String name;

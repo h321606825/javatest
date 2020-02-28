@@ -2,7 +2,10 @@ package nowcode;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
-
+/**
+ *
+ * 三个线程依次打印ABC
+ */
 public class Lock_State_ABC {
     private static Lock lock=new ReentrantLock();
     private static int state=0;//通过state的值来确定是哪个线程打印

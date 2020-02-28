@@ -4,6 +4,10 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ *
+ * 三个线程依次打印ABC
+ */
 public class Lock_Condition_ABC {
     private static Lock lock = new ReentrantLock();
     private static Condition A = lock.newCondition();
