@@ -15,9 +15,9 @@ public class Tree {
     //先序遍历递归算法
     public static void preOrder(TreeNode root) {
         if(root == null)return;
+        System.out.print(root.val+" ");
         preOrder(root.left);
         preOrder(root.right);
-        System.out.print(root.val+" ");
 
     }
     //先序遍历非递归算法
@@ -32,6 +32,66 @@ public class Tree {
             if(cur.left!=null)q.add(cur.left);
         }
     }
+    //递归中序遍历二叉树
+    void binaryTreeInOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        binaryTreeInOrder(root.left);
+        System.out.print(root.val+" ");
+        binaryTreeInOrder(root.right);
+    }
+
+    //二叉树的中序遍历非递归
+    void binaryTreeInOrderNonR(TreeNode root){
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        TreeNode node = null;
+        while (cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            node = stack.pop();
+            System.out.print(node.val+" ");
+            cur = node.right;
+        }
+    }
+
+    //后序递归遍历二叉树
+    void binaryTreeLastOrder(TreeNode root){
+        if(root==null){
+            return;
+        }
+        binaryTreeLastOrder(root.left);
+        binaryTreeLastOrder(root.right);
+        System.out.print(root.val+" ");
+    }
+
+    //二叉树的后序遍历非递归
+    void binaryTreePostOrderNonR(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode cur = root;
+        TreeNode prev = null;
+        while (cur != null || !stack.empty()) {
+            while (cur != null) {
+                stack.push(cur);
+                cur = cur.left;
+            }
+            //左边都入栈
+            cur = stack.peek();//最左子树
+            //cur.right == prev 代表的是 cur的右边已经打印过了
+            if(cur.right == null || cur.right == prev) {
+                stack.pop();
+                System.out.print(cur.val+" ");
+                prev = cur;
+                cur = null;
+            }else {
+                cur = cur.right;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
