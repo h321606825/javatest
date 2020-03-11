@@ -8,6 +8,7 @@ public class TestDef extends DefPubdif{
         DefPubdif defPubdif = new DefPubdif();
         TestDef def = new TestDef();
         def.haha();
-        def.hehe();
+        //无法调用
+//        def.hehe();
     }
 }
